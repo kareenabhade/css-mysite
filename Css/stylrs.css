@@ -1,47 +1,125 @@
-body{
+body {
   margin: 0;
   text-align: center;
   font-family: 'Merriweather Sans', sans-serif;
 }
-h2{
+
+h2 {
   font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  color: #66BFBF;
+  font-weight: normal;
 }
-h1{
+
+h1 {
   font-family: 'Sacramento', cursive;
+  font-size: 562.5%;
+  color: #66BFBF;
 }
-.pro-photo{
+
+.skill-row {
+  width: 50%;
+  margin: 50px auto 50px auto;
+  line-height: 2;
+}
+
+.pro-photo {
   height: 150px;
 }
-.skill{
-  height: 150px;
+
+hr {
+  margin-top: 50px;
+  width: 5%;
+  color: lightgrey;
+  border-style: dotted none none;
+  border-width: 10px;
 }
-.bottom-cloud{
-  height: 50px;
+
+.skill-img1 {
+  width: 25%;
+}
+
+.skill-img2 {
+  width: 25%;
+}
+
+.bottom-cloud {
+  height: 150px;
   position: absolute;
+  left: 5%;
 }
-.top-cloud{
-  height: 50px;
+
+.top-cloud {
+  height: 150px;
   position: relative;
   padding: 20px;
   top: 50px;
-  left: 200px;
+  left: 35%;
 }
-.firstcontainer{
-  background-color: #CFF5E7;
+
+.firstcontainer {
+  background-color: #EAF6F6;
 }
-.secondcontainer{
+
+.secondcontainer {
   background-color: red;
   height: 200px;
   width: 200px;
 }
-.thirdcontainer{
+
+.thirdcontainer {
   background-color: blue;
   height: 200px;
   width: 200px;
 }
-.mountain{
+.middle-container{
+  margin-top: 50px;
+}
+
+.bottom-container {
+  margin-top: 60px;
+  padding: 40px;
+  background-color: #66BFBF;
+}
+
+.mountain {
   height: 500px;
 }
-.pro{
+
+.pro {
   text-decoration: underline;
+}
+
+.btn {
+  margin: 20px 0 40px 0;
+  height: 40px;
+  width: 12%;
+  background-color: #11999E;
+  border-width: 0;
+  border-radius: 8px;
+  background-image: linear-gradient(to bottom, #11cdd4, #11999e);
+}
+
+.btn:hover {
+  background-image: linear-gradient(to bottom, #30e3cb, #2bc4ad);
+}
+
+.contact-me-btn {
+  color: white;
+  font-size: 20px;
+}
+
+.footer-link {
+  padding: 40px;
+  font-size: 20px;
+  color: #11999E;
+  text-decoration: none;
+}
+.footer-link:hover{
+  color: grey;
+}
+.copy-right {
+  color: white;
+  width: 30%;
+  margin: 30px auto;
 }
